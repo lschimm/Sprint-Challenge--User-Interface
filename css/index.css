@@ -153,7 +153,7 @@ footer nav a {
 nav {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 25px;
     /* border: 1px dashed red; */
 }
@@ -223,6 +223,7 @@ a {
 .jumboAbout {
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 15px;
 }
 
 button {
@@ -259,4 +260,16 @@ p {
 
 h2 {
     margin-top: 2%
+}
+
+
+.a-team {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    align-items: flex-end;
+}
+
+.jumbo {
+    margin-top: 15px;
 }
