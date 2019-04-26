@@ -225,19 +225,31 @@ a {
     padding-bottom: 20px;
 }
 
-.collaboration {
-    border: 1px solid red;
-}
-
 button {
-
-}
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 35px;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 10px;
+  /*   box-shadow: 0 2px; */
+    margin: 5px;
+  }
 
 hr {
-    border: .5px dashed black;
+    border: .5px dashed lightslategrey;
 }
 
-.middle {
-    display: flex;
-    flex: wrap;
+.info {
+    padding: 20px 10px;
+    width: 50%;
+    line-height: 20px;
 }
+
+.middle1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid rgb(92, 92, 119); */
+    justify-content: space-between;
+}
+
