@@ -29,7 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    max-width: 805px;
+    margin: auto;
+    /* border: 1px solid red; */
 }
 ol, ul {
 	list-style: none;
@@ -104,7 +107,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +146,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* --------------- */
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    /* border: 1px dashed red; */
+}
+
+nav .lambdablack {
+     display: flex;
+    align-content: center;
+}
+
+.jumbo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+ background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+
+.text-container {
+  /* border: 1px solid blue; */
 }
