@@ -160,7 +160,7 @@ nav {
 
 nav .lambdablack {
      display: flex;
-    align-content: center;
+    justify-content: center;
 }
 
 .jumbo {
@@ -226,6 +226,7 @@ a {
 }
 
 button {
+
     border: 1px solid black;
     text-align: center;
     padding: 10px 35px;
@@ -233,7 +234,7 @@ button {
     overflow: hidden;
     border-radius: 10px;
   /*   box-shadow: 0 2px; */
-    margin: 5px;
+    margin: 15px 0px;
   }
 
 hr {
@@ -249,7 +250,13 @@ hr {
 .middle1 {
     display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid rgb(92, 92, 119); */
     justify-content: space-between;
 }
 
+p { 
+ line-spacing: 8%;
+} 
+
+h2 {
+    margin-top: 2%
+}
